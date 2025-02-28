@@ -1,5 +1,3 @@
-# Local_Manifest
-
 # How to use ? 
 
 # Make directory first
