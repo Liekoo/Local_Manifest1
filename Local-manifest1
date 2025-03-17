@@ -4,14 +4,12 @@
     <remote name="sapphire-sm6225" fetch="https://github.com/sapphire-sm6225" clone-depth="1" />
     <remote name="saroj-nokia" fetch="https://github.com/saroj-nokia" clone-depth="1" />
     <remote name="sm6225-sapphire" fetch="https://github.com/sm6225-sapphire" clone-depth="1" />
+
     <!-- Device -->
     <project path="device/xiaomi/sapphire-kernel" name="device_xiaomi_sapphire-kernel" remote="saroj-nokia" revision="15" />
     <!-- Kernel -->
     <project path="device/xiaomi/sapphire" name="device_xiaomi_sapphire" remote="sm6225-sapphire" revision="15" />
-    <!-- SEPolicy -->
-    <project path="device/xiaomi/sepolicy" name="device_xiaomi_sepolicy" remote="sapphire-sm6225" revision="15" />
     <!-- Vendor -->
     <project path="vendor/xiaomi/sapphire" name="vendor_xiaomi_sapphire" remote="saroj-nokia" revision="15" />
-    <!-- Hardware -->
-    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="sapphire-sm6225" revision="15" />
+
 </manifest>
